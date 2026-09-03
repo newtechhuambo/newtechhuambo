@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Newtech Huambo - Soluções em TI e Telefonia IP</title>    <style>        :root {            --azul: #004aad;            --azul-claro: #007bff;            --verde: #25D366;            --cinza: #f8f9fa;        }        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial, sans-serif; }        body { background: var(--cinza); color: #333; }                header {             background: linear-gradient(135deg, var(--azul), var(--azul-claro));             color: white; padding: 30px 20px; text-align: center;         }        header h1 { font-size: 32px; margin-bottom: 5px; }        header p { font-size: 16px; opacity: 0.9; }        nav { margin-top: 20px; }        nav a { color: white; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 16px; }        nav a:hover { text-decoration: underline; }
-        .banner {            background: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200') center/cover;            color: white; text-align: center; padding: 80px 20px;        }        .banner h2 { font-size: 36px; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }        .banner .btn { background: var(--verde); font-size: 18px; padding: 15px 30px; }
-        .container { max-width: 1100px; margin: 40px auto; padding: 0 20px; }        h2 { color: var(--azul); text-align: center; margin-bottom: 30px; font-size: 28px; }
-        .grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }        .card {             background: white; border-radius: 10px; padding: 25px;             box-shadow: 0 4px 10px rgba(0,0,0,0.1);             flex: 1 1 300px; transition: 0.3s;        }        .card:hover { transform: translateY(-5px); }        .card h3 { color: var(--azul); margin-bottom: 10px; }
-        .produto-card { text-align: center; }        .produto-card img { width: 100px; height: 100px; object-fit: contain; margin-bottom: 10px; }
-        .btn {             background: var(--azul); color: white; padding: 12px 20px;             text-decoration: none; border-radius: 5px; display: inline-block;             margin-top: 15px; font-weight: bold;         }        .btn-whatsapp { background: var(--verde); }
-        .porque-nos { background: white; padding: 40px 20px; }        .motivo { text-align: center; padding: 20px; }
-        .whatsapp-float {             position: fixed; bottom: 20px; right: 20px; background: var(--verde);             color: white; padding: 15px 25px; border-radius: 50px;             text-decoration: none; font-weight: bold; box-shadow: 0 4px 12px rgba(0,0,0,0.3);            z-index: 1000;        }        footer { text-align: center; padding: 25px; background: #222; color: white; margin-top: 40px; }    </style></head><body>    <header>        <h1>NEWTECH HUAMBO</h1>        <p>Soluções Inteligentes em TI e Telefonia IP</p>        <nav>            <a href="#servicos">Serviços</a>            <a href="#produtos">Equipamentos</a>            <a href="#porque">Por que Nós</a>            <a href="#contato">Contato</a>        </nav>    </header>
-    <section class="banner">        <h2>Reduza 60% da conta de telefone da tua empresa</h2>        <p>Instalação de PBX, Redes e Suporte Técnico em todo Huambo</p>        <a href="https://wa.me/244922034428?text=Ola%20Newtech,%20quero%20um%20orcamento" class="btn">Fale Connosco no WhatsApp</a>    </section>
-    <div class="container">        <h2 id="servicos">Nossos Serviços</h2>        <div class="grid">            <div class="card">                <h3> Telefonia IP Corporativa</h3>                <p>Instalação e configuração de FreePBX/Asterisk. Ligações internas grátis e redução de custos. Suporte completo.</p>                <a href="https://wa.me/244922034428?text=Ola%20Newtech,%20quero%20orcamento%20de%20Telefonia%20IP" class="btn">Pedir Orçamento</a>            </div>            <div class="card">                <h3> Redes e Infraestrutura</h3>                <p>Cabeamento estruturado, Wi-Fi empresarial, configuração de Switches e Roteadores para empresas e escolas.</p>                <a href="https://wa.me/244922034428?text=Ola%20Newtech,%20quero%20orcamento%20de%20Rede" class="btn">Pedir Orçamento</a>            </div>            <div class="card">                <h3> Suporte Técnico</h3>                <p>Manutenção preventiva e corretiva. Planos mensais para garantir que teu sistema nunca pare.</p>                <a href="https://wa.me/244922034428?text=Ola%20Newtech,%20quero%20plano%20de%20Suporte" class="btn">Falar Connosco</a>            </div>        </div>    </div>
-    <div class="container">        <h2 id="produtos">Equipamentos Sob Encomenda</h2>        <p style="text-align:center; margin-bottom:20px;">Entrega em até 48h no Huambo. Pague 50% de sinal.</p>        <div class="grid">            <div class="card produto-card">                <img src="https://via.placeholder.com/100" alt="Telefone IP">                <h3>Telefone IP Yealink T21</h3>                <p>Qualidade HD para escritórios e call center.</p>                <a href="https://wa.me/244922034428?text=Ola%20Newtech,%20quero%20preco%20do%20Telefone%20IP" class="btn btn-whatsapp">Solicitar Preço</a>            </div>            <div class="card produto-card">                <img src="https://via.placeholder.com/100" alt="Headset">                <h3>Headset Profissional</h3>                <p>Conforto e microfone com cancelamento de ruído.</p>                <a href="https://wa.me/244922034428?text=Ola%20Newtech,%20quero%20preco%20do%20Headset" class="btn btn-whatsapp">Solicitar Preço</a>            </div>            <div class="card produto-card">                <img src="https://via.placeholder.com/100" alt="Switch">                <h3>Switch de Rede 8/24 Portas</h3>                <p>Conecte todos computadores com velocidade.</p>                <a href="https://wa.me/244922034428?text=Ola%20Newtech,%20quero%20preco%20do%20Switch" class="btn btn-whatsapp">Solicitar Preço</a>            </div>        </div>    </div>
-    <section class="porque-nos" id="porque">        <div class="container">            <h2>Por que escolher a Newtech?</h2>            <div class="grid">                <div class="motivo"><h3>✓ Especialistas Locais</h3><p>Equipa no Huambo. Atendimento rápido e sem demora.</p></div>                <div class="motivo"><h3>✓ Preço Justo</h3><p>Soluções que cabem no bolso da tua empresa.</p></div>                <div class="motivo"><h3>✓ Suporte Garantido</h3><p>Não te abandonamos depois da instalação.</p></div>            </div>        </div>    </section>
-    <div class="container" id="contato">        <h2>Fale com a Newtech</h2>        <div class="card" style="text-align:center;">            <p><b>WhatsApp:</b> 922 034 428</p>            <p><b>Email:</b> newtech.huambo@gmail.com</p>            <p><b>Atendemos:</b> Huambo, Caála, Bailundo, Ecunha e toda província</p>            <a href="https://wa.me/244922034428" class="btn btn-whatsapp">Iniciar Conversa</a>        </div>    </div>
-    <a href="https://wa.me/244922034428" class="whatsapp-float"> Falar no WhatsApp</a>
-    <footer>        <p>© 2026 Newtech Huambo. Tecnologia que conecta o teu negócio.</p>    </footer></body></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newtech Huambo - Soluções em TI</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        header { background: #004aad; color: white; padding: 30px 20px; text-align: center; }
+        header h1 { margin: 0; font-size: 28px; }
+        header p { margin: 5px 0 0; }
+        .servico { background: white; padding: 20px; margin: 20px 0; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .servico h2 { color: #004aad; margin-top: 0; }
+        .btn { display: inline-block; background: #25D366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 10px; }
+        .btn:hover { background: #1ebe5b; }
+        footer { text-align: center; padding: 20px; background: #333; color: white; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NEWTECH HUAMBO</h1>
+        <p>Soluções em Tecnologia para a tua Empresa</p>
+    </header>
+
+    <div class="container">
+        <div class="servico">
+            <h2>Telefonia IP Corporativa</h2>
+            <p>Instalação e configuração de FreePBX/Asterisk. Ligações internas grátis e redução de custos. Suporte completo.</p>
+            <a href="https://wa.me/244922034428?text=Ola%20Newtech,%20quero%20um%20orcamento%20de%20Telefonia%20IP" class="btn">Pedir Orçamento</a>
+        </div>
+
+        <div class="servico">
+            <h2>Redes e Infraestrutura</h2>
+            <p>Cabeamento estruturado, Wi-Fi empresarial, configuração de Switches e Roteadores para empresas e escolas.</p>
+            <a href="https://wa.me/244922094428?text=Ola%20Newtech,%20quero%20um%20orcamento%20de%20Redes" class="btn">Pedir Orçamento</a>
+        </div>
+
+        <div class="servico">
+            <h2>Suporte Técnico</h2>
+            <p>Manutenção preventiva e corretiva. Planos mensais para garantir que teu sistema nunca pare.</p>
+            <a href="https://wa.me/244922034428?text=Ola%20Newtech,%20preciso%20de%20Suporte%20Tecnico" class="btn">Falar Connosco</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Newtech Huambo | Huambo, Angola</p>
+    </footer>
+</body>
+</html>
