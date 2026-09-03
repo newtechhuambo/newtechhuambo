@@ -3,51 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Newtech Huambo - Soluções em TI</title>
+    <title>Newtech Huambo - Inovação e Tecnologia para o Futuro da sua Empresa</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; color: #333; }
         
-        /* AQUI ESTÁ A FOTO DE FUNDO */
-        header { 
-            background: linear-gradient(rgba(0,74,173,0.8), rgba(0,74,173,0.8)), 
-                        url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1470') center/cover;
+        /* SEÇÃO 1: CAPA COM FOTO */
+        .hero { 
+            background: linear-gradient(rgba(0,33,71,0.85), rgba(0,33,71,0.85)), 
+                        url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1470') center/cover no-repeat;
             color: white; 
-            padding: 100px 20px; 
+            padding: 120px 20px; 
             text-align: center; 
         }
-        header h1 { margin: 0; font-size: 36px; text-shadow: 2px 2px 4px black; }
-        header p { font-size: 18px; text-shadow: 1px 1px 2px black; }
+        .hero h1 { margin: 0; font-size: 42px; font-weight: 700; letter-spacing: 2px; }
+        .hero p { font-size: 20px; margin: 15px 0 30px; max-width: 700px; margin-left: auto; margin-right: auto; }
+        .btn-principal { display: inline-block; background: #25D366; color: white; padding: 15px 35px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 18px; transition: 0.3s; }
+        .btn-principal:hover { background: #1ebe5b; transform: scale(1.05); }
+
+        /* SEÇÃO 2: SOBRE */
+        .sobre { padding: 60px 20px; text-align: center; background: #f4f7fc; }
+        .sobre h2 { color: #002147; font-size: 32px; }
+        .sobre p { max-width: 800px; margin: auto; font-size: 18px; line-height: 1.6; }
+
+        /* SEÇÃO 3: SERVIÇOS COM OUTRA FOTO DE FUNDO */
+        .servicos { 
+            background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), 
+                        url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1470') center/cover fixed;
+            padding: 60px 20px; 
+        }
+        .container { max-width: 1000px; margin: auto; }
+        .servico { background: white; padding: 25px; margin: 20px 0; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-left: 6px solid #004aad; }
+        .servico h3 { color: #004aad; margin-top: 0; font-size: 22px; }
+        .btn { display: inline-block; background: #004aad; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 10px; }
         
-        .container { max-width: 900px; margin: auto; padding: 20px; background: white; }
-        .servico { background: #f9f9f9; padding: 20px; margin: 20px 0; border-radius: 10px; border-left: 5px solid #004aad; }
-        .servico h2 { color: #004aad; margin-top: 0; }
-        .btn { display: inline-block; background: #25D366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; }
-        footer { text-align: center; padding: 20px; background: #222; color: white; }
+        footer { text-align: center; padding: 30px; background: #002147; color: white; }
     </style>
 </head>
 <body>
-    <header>
+
+    <!-- CAPA -->
+    <section class="hero">
         <h1>NEWTECH HUAMBO</h1>
-        <p>Soluções em Tecnologia para a tua Empresa</p>
-    </header>
+        <p><b>Inovação. Confiabilidade. Resultados.</b><br>
+        Transformamos a tecnologia em soluções estratégicas para impulsionar o crescimento da sua empresa no Huambo e em Angola.</p>
+        <a href="https://wa.me/244922034428?text=Ola%20Newtech,%20gostaria%20de%20uma%20consultoria%20gratuita" class="btn-principal">SOLICITE UMA CONSULTORIA GRÁTIS</a>
+    </section>
 
-    <div class="container">
-        <div class="servico">
-            <h2>Telefonia IP Corporativa</h2>
-            <p>Instalação e configuração de FreePBX/Asterisk. Ligações internas grátis.</p>
-            <a href="https://wa.me/2449XXXXXXXXX?text=Ola%20Newtech,%20quero%20orcamento%20de%20Telefonia%20IP" class="btn">Pedir Orçamento</a>
+    <!-- SOBRE -->
+    <section class="sobre">
+        <div class="container">
+            <h2>A sua Parceira em Soluções de TI</h2>
+            <p>Na <b>Newtech Huambo</b> somos especialistas em infraestrutura de rede, telefonia corporativa e suporte técnico. 
+            A nossa missão é garantir que a tecnologia da sua empresa funcione com máxima performance, segurança e sem interrupções, 
+            para que você possa focar no que realmente importa: fazer o seu negócio crescer.</p>
         </div>
+    </section>
 
-        <div class="servico">
-            <h2>Redes e Infraestrutura</h2>
-            <p>Cabeamento estruturado, Wi-Fi empresarial, Switches e Roteadores.</p>
-            <a href="https://wa.me/2449XXXXXXXXX?text=Ola%20Newtech,%20quero%20orcamento%20de%20Redes" class="btn">Pedir Orçamento</a>
+    <!-- SERVIÇOS -->
+    <section class="servicos">
+        <div class="container">
+            <h2 style="text-align:center; color:#002147; font-size:32px;">Nossos Serviços Especializados</h2>
+            
+            <div class="servico">
+                <h3>Telefonia IP Corporativa - FreePBX & Asterisk</h3>
+                <p>Reduza até 70% dos custos com telefonia. Tenha ramais ilimitados, gravação de chamadas e atendimento profissional. Instalação e suporte completo.</p>
+                <a href="https://wa.me/244922034428?text=Ola%20Newtech,%20quero%20orcamento%20de%20Telefonia%20IP" class="btn">Pedir Proposta</a>
+            </div>
+
+            <div class="servico">
+                <h3>Redes e Infraestrutura Empresarial</h3>
+                <p>Projetamos e implementamos redes cabeadas e Wi-Fi de alta performance para empresas, escolas e condomínios. Estabilidade e velocidade garantidas.</p>
+                <a href="https://wa.me/244922034428?text=Ola%20Newtech,%20quero%20orcamento%20de%20Redes" class="btn">Pedir Proposta</a>
+            </div>
+
+            <div class="servico">
+                <h3>Suporte Técnico e Manutenção Preventiva</h3>
+                <p>Planos mensais para evitar dores de cabeça. Monitoramos e damos manutenção nos seus servidores, computadores e sistemas para zero tempo de paragem.</p>
+                <a href="https://wa.me/244922034428?text=Ola%20Newtech,%20preciso%20de%20Suporte%20Tecnico" class="btn">Falar com Especialista</a>
+            </div>
         </div>
-    </div>
+    </section>
 
     <footer>
-        <p>© 2026 Newtech Huambo | Huambo, Angola</p>
+        <p><b>NEWTECH HUAMBO</b> | Huambo, Angola<br>
+        © 2026 - Tecnologia que gera resultados</p>
     </footer>
 </body>
 </html>
-
